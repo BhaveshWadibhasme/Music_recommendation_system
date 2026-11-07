@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Local Last.fm download. The file is large and licensed for non-commercial
+# use by Last.fm. Keep it out of git. The archived loan CSV stays inside
+# archive/Rupesh_work.zip and is already tracked there.
+data/
+lastfm-dataset-360K/
+lastfm-dataset-360K.tar.gz
